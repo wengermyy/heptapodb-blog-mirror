@@ -1,0 +1,3 @@
+(()=>{"use strict";const t="谢谢喜欢，使用本段文字的方式请不要伤害到我。",e="t002-owner-copy-bypass";function n(){try{const t=new URLSearchParams(window.location.search||"");return t.get("ownerCopy")==="on"?(window.localStorage.setItem(e,"true"),!0):t.get("ownerCopy")==="off"?(window.localStorage.removeItem(e),!1):window.localStorage.getItem(e)==="true"}catch{return!1}}function s(){const e=window.getSelection?window.getSelection():null;return e?String(e.toString()||""):""}document.addEventListener("copy",e=>{if(n())return;const i=s();if(!i.trim())return;const o=i.replace(/^\s+|\s+$/g,""),a=o.startsWith(t)?o:`${t}
+
+${o}`;e.clipboardData&&(e.clipboardData.setData("text/plain",a),e.preventDefault())})})()

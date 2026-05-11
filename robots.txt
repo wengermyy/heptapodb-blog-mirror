@@ -1,0 +1,7 @@
+User-agent: *
+
+Disallow: /images/
+Disallow: /js/
+Disallow: /css/
+
+Sitemap: https://wengermyy.github.io/heptapodb-blog-mirror/sitemap.xml

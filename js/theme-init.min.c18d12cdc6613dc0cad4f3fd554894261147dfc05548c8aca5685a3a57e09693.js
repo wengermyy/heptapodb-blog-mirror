@@ -1,0 +1,1 @@
+(()=>{const e=new Set(["pure-white-handwrite","pure-black-rounded"]);try{const t=localStorage.getItem("t002-public-theme");e.has(t)&&(document.documentElement.dataset.theme=t)}catch{}})()
