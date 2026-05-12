@@ -1,7 +1,5 @@
-# Heptapod-B Static Mirror
+# Heptapod-B static mirror
 
-This public repository contains generated static files only.
+This repository contains generated static files only for the GitHub Pages mainland-access fallback mirror.
 
-It is a GitHub Pages mirror for mainland-access fallback when the Cloudflare Workers main site is unreachable. Private message and newsletter features are intentionally unavailable in this mirror.
-
-Main site: https://heptapodb-blog.wengerfan-asabridge.workers.dev/
+Interactive functions such as private messages and newsletter subscription are disabled on the mirror. Use the main Cloudflare Worker site for interaction.
